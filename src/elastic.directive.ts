@@ -2,7 +2,7 @@ import { ElementRef, HostListener, Directive, AfterViewInit, Optional, OnInit, O
 import { NgModel } from '@angular/forms';
 import 'rxjs/add/observable/fromEvent';
 import 'rxjs/add/operator/debounceTime';
-import { Observable } from 'rxjs/Observable';
+import { Observable } from 'rxjs/Rx';
 import { Subscription } from 'rxjs/Subscription';
 
 @Directive({
